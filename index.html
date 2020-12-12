@@ -6,61 +6,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="./css/bootstrap.min.css">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
-        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
-    <title>Login</title>
+    integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    
+    <title>Document</title>
+    
 </head>
 
-<body class="page-sidebar">
-    <div class="login-form col-xs-10 offset-xs-2 col-sm-6 offset-sm-3 col-md-4 offset-md-4">
-        <header>
-            <h1>
-                <div class="img-fluid row justify-content-center align-items-center" class>
-                    <img src="./img/developer.png">
-                </div>
-            </h1>
-            <h2 class="text-center">Entre com o seu <b>Usuário</b> e sua <b>Senha</b></h2>
-        </header>
-        <form>
+<body>
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+        <!-- Logotipo -->
+        <a class="navbar-brand" href="login.html">
+            <img src="./img/developer.png" alt="Developer Master">
+        </a>
+        <!-- Alternar/Botão Recolher -->
+        <button class="navbar-toggler" type="button" data-toggle="navbar-collapse" data-target="#menu">
+            <!-- <span class="navbar-toggler-icon"></span> -->
+        </button>
+        
+        <!-- Links -->
+        <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="">Ordens de Serviço</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="">Clientes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="">Funcionários</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="">Serviços</a>
+                </li>
+            </ul>
 
-            <div class="input-group mb-3">
-                <div class="input-group-prepend">
-                    <span class="input-group-text" id="basic-addon1">
-                        <i class="fa fa-user"></i>
-                    </span>
-                </div>
-                <input type="text" class="form-control" placeholder="Usuário">
+        </div>
+
+
+                <a href="index.html" class="navbar-brand"></a>
+
             </div>
+        </div>
+    </nav>
 
-            <div class="input-group mb-3">
-                <div class="input-group-prepend">
-                    <span class="input-group-text" id="basic-addon1">
-                        <i class="fa fa-ellipsis-h"></i>
-                    </span>
-                </div>
-                <input type="password" class="form-control" placeholder="Senha">
-            </div>
-
-            <footer>
-                
-                <div >
-                    <button type="submit"  class="btn btn-primary float-right">Entrar</button>
-                </div>
-
-                <div class="checkbox"> 
-                    <label><input type="checkbox" name="lembrar"> Lembrar de mim</label>
-
-                </div>
-
-            </footer>
-
-        </form>
-
-    </div>
-
+    
     <script src="./js/jquery-3.5.1.min.js"></script>
     <script src="./js/bootstrap.min.js"></script>
 </body>
-
 </html>
